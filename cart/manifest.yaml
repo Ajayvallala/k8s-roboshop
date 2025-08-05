@@ -40,6 +40,9 @@ spec:
    containers:
    - name: cart
      image: ajayvallala/cart:v1
+     envFrom:
+    - configMapRef:
+      name: catalogue
     
 
 ---
