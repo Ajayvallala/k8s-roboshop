@@ -41,8 +41,8 @@ spec:
    - name: cart
      image: ajayvallala/cart:v1
      envFrom:
-    - configMapRef:
-      name: cart
+     - configMapRef:
+         name: cart
     
 
 ---
