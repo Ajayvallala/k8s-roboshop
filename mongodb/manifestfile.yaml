@@ -10,10 +10,16 @@ metadata:
 spec:
  replicas: 1
  selector:
+  component: mongodb
   project: roboshop
-  env: dev
+  tier: database
  template:
   spec:
+   metadata:
+    labels:
+     component: mongodb
+     project: roboshop
+     tier: database
    containers:
    - name: mongodb
      image: ajayvallala/mongodb:v1
