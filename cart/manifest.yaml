@@ -27,9 +27,9 @@ spec:
  replicas: 1
  selector:
   matchLabels:
-    component: cart
-    project: roboshop
-    tier: app
+   component: cart
+   project: roboshop
+   tier: app
  template:
   metadata:
    labels:
