@@ -42,7 +42,7 @@ spec:
      image: ajayvallala/cart:v1
      envFrom:
     - configMapRef:
-      name: catalogue
+      name: cart
     
 
 ---
